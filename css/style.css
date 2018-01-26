@@ -1,0 +1,102 @@
+#wrapper {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+}
+body {
+    background-image: url(../gambar/gambar-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.menu{
+    float: left;
+    padding: 5px;
+    background-color: black;
+    width: 1350px;
+    height: 20px;
+}
+.menu ul {
+    float: left;
+	list-style:none;
+	text-align:center;
+    margin-top: -55px;
+    margin-left: -50px;
+}
+.menu ul li a.current {
+    background-color: grey;
+    padding: 3.5px;
+    border-radius: 5px;
+}
+.menu li {
+	float: left;
+}
+.menu li a {
+	position:center;
+	color:#fff;
+	font-size:22px;
+	text-decoration:none;
+	margin-left:40px;
+	line-height:130px;
+}
+.menu li a:hover {
+	color:#00FFFF;
+}
+.tengah {
+    border-radius: 3px;
+    float:center;
+	width:950px;
+	height:710px;
+	margin-left:200px;
+	margin-top:70px;
+	margin-bottom:50px;
+	background-color:black;
+	background:rgba(0,0,0,0.7);
+}
+.tengah h1 {
+    margin-left: 3px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+}
+.tengah h2 {
+    color: white;
+    padding-left: 10px;
+    font-family: arial;
+    font-size: 16px;
+}
+.tengah h3 {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    padding-left: 100px;
+}
+.tengah h3 a {
+    color: white;
+    text-decoration: none;
+}
+.tengah h3 a:hover {
+    color: #00ffff;
+}
+.tengah p {
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.tengah table {
+    color: white;
+    font-family: arial;
+    font-size: 22px;
+}
+.footer {
+    background-color: black;
+    background:rgba(0,0,0,0.7);
+    font-family: arial;
+    font-size: 12px;
+    width: 1350px;
+    height: 28px;
+    color: white;
+}
